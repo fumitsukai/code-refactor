@@ -1,13 +1,15 @@
+/*Removed padding and margin of whole document and border boxed it*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Changed body background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Changed background color of header, changed font and font color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ body {
     color: #ffffff;
 }
 
+/*Changed h1 font size and changed to display inline block */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/*Changed div with nav // Float it right and change font and size*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ body {
     font-size: 20px;
 }
 
+/*Disabled list style // changed div to nav*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*Changed div to nav*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/*Added image, adjused height and width and positioned it in the center*/
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +82,7 @@ p {
     margin-left: 20px;
 }
 
+/*Positioned as a sidebar changed font and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
