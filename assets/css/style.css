@@ -76,6 +76,7 @@ p {
     margin-left: 25px;
 }
 
+/*Changed main content section to only be 75% of the viewport to make room for the sidebar*/
 .content {
     width: 75%;
     display: inline-block;
@@ -196,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/*Change font and added a bit of padding to the footer.Aligned the text to center*/
 .footer {
     padding: 30px;
     clear: both;
